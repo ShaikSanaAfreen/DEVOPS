@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="Ex1.js"></script>
+</head>
+<body>
+<center>
+<form name='Registration' onsubmit="fun1();">
+<table>
+<tr><th>UserId:</th><td><input type="number" name="userid"></td></tr><br>
+<tr><th>UserName:</th><td><input type="text" name="username"></td></tr><br>
+<tr><th>Email:</th><td><input type="email" name="email"></td></tr><br>
+<tr><th>Password:</th><td><input type="password" name="pass"></td></tr><br>
+<tr><th>Address:</th><td><input type="text" name="address"></td></tr><br>
+<tr><th>Gender:</th><td><input type="radio" name="mgender" value="male" id="male">Male
+<input type="radio" name="mgender" value="female" id="female">Female
+
+</td></tr>
+<tr><th>Country:</th>
+<td><select name="country">
+<option selected="" value="Default">Choose</option>
+
+<option value="IND">India</option>
+<option value="US">Us</option>
+<option value="UK">Uk</option>
+</select><br>
+<tr><th>Zipcode:</th><td><input type="text" name="zipcode"></td></tr><br>
+
+<tr><th>Language:</th>
+<td><select name="language">
+<option  selected="" value="Default">Choose</option>
+
+<option value="ENG">English</option>
+<option value="TEL">Hindi</option>
+<option value="HIN">Telugu</option>
+</select><br>
+<tr><th>About:</th><td><textarea name="about"></textarea></td></tr><br>
+
+
+<tr><td><input type="submit" value="submit"></td><br>
+<td><input type="reset" value="reset"></td></tr>
+</form>
+</center>
+</body>
+</html>
