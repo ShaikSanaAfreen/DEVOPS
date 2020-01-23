@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="s" class="pack.Student">  
+<constructor-arg value="10" type="int"></constructor-arg>
+<constructor-arg value="Sana" type="String"></constructor-arg>
+<constructor-arg>
+<list>
+<value>8247867665</value>
+<value>9848845745</value>
+<value>9848879326</value>
+</list>
+</constructor-arg>
+ </bean>
+</beans>  
