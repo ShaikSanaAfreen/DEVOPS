@@ -16,6 +16,7 @@
 <td><input type="SUBMIT" VALUE="Click"></td></tr>
 
 </table>
+<a href="Register.jsp">Click</a>
 </form>
 </body>
 </html>
